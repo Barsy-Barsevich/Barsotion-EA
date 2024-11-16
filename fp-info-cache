@@ -1,4 +1,4 @@
-24123719268367999
+24128914612053648
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54516,12 +54516,26 @@ ST HLGA NoLead
 10
 10
 CustomPackage
+SS206SURWA
+
+
+0
+10
+10
+CustomPackage
 TO-252-2_TabPin1_Other2
 TO-252/DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/
 DPAK TO-252 DPAK-3 TO-252-3 SOT-428
 0
 7
 2
+CustomPackage
+TPS61088
+
+
+0
+20
+20
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -96886,6 +96900,13 @@ igbt diode module
 0
 25
 25
+UltraLibrarian
+RHL0020A
+
+TPS61088RHLR 
+0
+25
+22
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins

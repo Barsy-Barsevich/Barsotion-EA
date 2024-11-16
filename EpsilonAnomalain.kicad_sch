@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Barsotion GBK EpsilonAnomalain")
-		(date "2024-11-16")
-		(rev "2.8")
+		(date "2024-11-17")
+		(rev "2.10")
 		(company "Barsotion KOy")
 	)
 	(lib_symbols
@@ -2697,6 +2697,373 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Pack04"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RN"
+				(at -7.62 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Pack04"
+				(at 5.08 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 6.985 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4 resistor network, parallel topology"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R network parallel topology isolated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Pack04_0_1"
+				(rectangle
+					(start -6.35 -2.413)
+					(end 3.81 2.413)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -5.715 1.905)
+					(end -4.445 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.175 1.905)
+					(end -1.905 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 1.905)
+					(end 0.635 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -5.08 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 1.905) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.905) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.905) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.905 1.905)
+					(end 3.175 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Pack04_1_1"
+				(pin passive line
+					(at -5.08 -5.08 90)
+					(length 2.54)
+					(name "R1.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name "R2.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "R3.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "R4.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "R4.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "R3.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 5.08 270)
+					(length 2.54)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 270)
+					(length 2.54)
+					(name "R1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6806,6 +7173,12 @@
 		(uuid "35a9034e-8b37-4222-9577-ea53dde49ff4")
 	)
 	(junction
+		(at 144.78 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "368f20d3-0ac9-4017-9f9b-a76cc87b317d")
+	)
+	(junction
 		(at 114.3 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6824,10 +7197,22 @@
 		(uuid "446622ca-ce14-4556-a183-364412c34a9a")
 	)
 	(junction
+		(at 144.78 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cc6df60-7617-4734-b44d-106b609d233e")
+	)
+	(junction
 		(at 209.55 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50ac5e4c-d396-472f-a76e-9fab55c1a7d8")
+	)
+	(junction
+		(at 129.54 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50ca2f53-c69c-4b8e-9837-899f37a80c07")
 	)
 	(junction
 		(at 173.99 69.85)
@@ -6842,7 +7227,7 @@
 		(uuid "5b99324c-e0ac-48c0-83eb-3f6654dd1b40")
 	)
 	(junction
-		(at 68.58 181.61)
+		(at 71.12 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62789456-6b23-404c-87b4-8fdb939015e0")
@@ -6860,6 +7245,12 @@
 		(uuid "65c5ec80-b68f-44b6-bc43-e3f86fa65164")
 	)
 	(junction
+		(at 129.54 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65c70c38-76c0-4a6d-80f1-c2db8d3c353f")
+	)
+	(junction
 		(at 129.54 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6870,6 +7261,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e9b5fd0-a015-49be-9858-6f46cdbdd813")
+	)
+	(junction
+		(at 144.78 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7279d74f-6d8e-49e9-8821-b82a892e6d80")
+	)
+	(junction
+		(at 129.54 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73484437-8859-4bf4-8eec-671821c54e2a")
 	)
 	(junction
 		(at 163.83 69.85)
@@ -7409,6 +7812,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 179.07) (xy 139.7 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1487acb8-8d6b-4ac8-b0f9-fb24a26768ce")
+	)
+	(wire
+		(pts
 			(xy 264.16 90.17) (xy 273.05 90.17)
 		)
 		(stroke
@@ -7466,6 +7879,16 @@
 			(type default)
 		)
 		(uuid "1aadc6e0-5b60-42d5-99f4-6342e01bc34a")
+	)
+	(wire
+		(pts
+			(xy 144.78 168.91) (xy 144.78 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b412b39-cadc-476e-8875-56890ed8e199")
 	)
 	(wire
 		(pts
@@ -7629,7 +8052,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 179.07) (xy 68.58 181.61)
+			(xy 71.12 179.07) (xy 71.12 181.61)
 		)
 		(stroke
 			(width 0)
@@ -7749,6 +8172,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 173.99) (xy 144.78 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45ad03dc-d469-40d7-9d83-8c36c88d679a")
+	)
+	(wire
+		(pts
 			(xy 250.19 40.64) (xy 250.19 44.45)
 		)
 		(stroke
@@ -7836,6 +8269,16 @@
 			(type default)
 		)
 		(uuid "4fc58aec-f5d3-4fe0-ae8e-12a121ff2b00")
+	)
+	(wire
+		(pts
+			(xy 129.54 179.07) (xy 129.54 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50509dec-f8ab-4a1f-9771-3215a4c1c99f")
 	)
 	(wire
 		(pts
@@ -8006,6 +8449,16 @@
 			(type default)
 		)
 		(uuid "5cd337ce-8cda-40e3-998b-960f103253a1")
+	)
+	(wire
+		(pts
+			(xy 139.7 184.15) (xy 144.78 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d529900-f00d-4d56-9ee1-d19932c10bdd")
 	)
 	(wire
 		(pts
@@ -8189,6 +8642,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 168.91) (xy 129.54 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76c86ff8-c3e1-4001-89dc-3794c117f9c6")
+	)
+	(wire
+		(pts
 			(xy 163.83 26.67) (xy 171.45 26.67)
 		)
 		(stroke
@@ -8226,6 +8689,16 @@
 			(type default)
 		)
 		(uuid "79b3b2c1-f7c5-4e84-868e-7b26f8541ecd")
+	)
+	(wire
+		(pts
+			(xy 129.54 173.99) (xy 132.08 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b1b9255-8257-49e9-8673-8003cade5683")
 	)
 	(wire
 		(pts
@@ -8379,6 +8852,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 184.15) (xy 144.78 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98cd619f-b317-4f28-b849-775f4c31dd02")
+	)
+	(wire
+		(pts
 			(xy 22.86 67.31) (xy 33.02 67.31)
 		)
 		(stroke
@@ -8389,6 +8872,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 173.99) (xy 144.78 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a5a8792-53e7-42cd-bb7d-dbb3786c4a12")
+	)
+	(wire
+		(pts
 			(xy 223.52 35.56) (xy 217.17 35.56)
 		)
 		(stroke
@@ -8396,6 +8889,16 @@
 			(type default)
 		)
 		(uuid "9af42b29-0113-412a-bb4c-f38541f6aa28")
+	)
+	(wire
+		(pts
+			(xy 132.08 179.07) (xy 129.54 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b574c91-93b7-49c0-a2ce-81b9a7e45df3")
 	)
 	(wire
 		(pts
@@ -8419,7 +8922,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 181.61) (xy 68.58 182.88)
+			(xy 71.12 181.61) (xy 71.12 182.88)
 		)
 		(stroke
 			(width 0)
@@ -8589,6 +9092,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 184.15) (xy 129.54 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaa81836-955e-47b6-bc28-30847e08ab77")
+	)
+	(wire
+		(pts
 			(xy 44.45 20.32) (xy 45.72 20.32)
 		)
 		(stroke
@@ -8696,6 +9209,16 @@
 			(type default)
 		)
 		(uuid "b87359cf-157e-4ba1-a821-75749d50f688")
+	)
+	(wire
+		(pts
+			(xy 129.54 184.15) (xy 129.54 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a7aea7-cd9d-4813-831a-41dce6083fb2")
 	)
 	(wire
 		(pts
@@ -8906,6 +9429,16 @@
 			(type default)
 		)
 		(uuid "da8df955-d598-441e-ae9c-719c2b2f3c04")
+	)
+	(wire
+		(pts
+			(xy 129.54 168.91) (xy 129.54 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daa2035d-b34c-4b65-be9f-a6637d38b065")
 	)
 	(wire
 		(pts
@@ -9149,6 +9682,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 168.91) (xy 144.78 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f956fd48-1b19-459c-8eda-3eab5a1d8019")
+	)
+	(wire
+		(pts
 			(xy 135.89 58.42) (xy 130.81 58.42)
 		)
 		(stroke
@@ -9221,7 +9764,7 @@
 	)
 	(rectangle
 		(start 13.97 154.94)
-		(end 71.12 195.58)
+		(end 85.09 195.58)
 		(stroke
 			(width 0)
 			(type dash)
@@ -9257,7 +9800,7 @@
 	)
 	(rectangle
 		(start 88.9 162.56)
-		(end 127 191.77)
+		(end 149.86 191.77)
 		(stroke
 			(width 0)
 			(type dash)
@@ -16282,6 +16825,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Pack04")
+		(at 50.8 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01ab7c63-99ed-4cef-9525-3cfd1953cc30")
+		(property "Reference" "RN2"
+			(at 50.8 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 50.8 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
+			(at 50.8 169.545 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology"
+			(at 50.8 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "99c94634-640d-4e10-bbfe-b75cdf4ebccb")
+		)
+		(pin "3"
+			(uuid "5b983863-b912-414c-9255-fa94a89e07dc")
+		)
+		(pin "2"
+			(uuid "78cea667-598e-409e-bff5-ddf1d6442d80")
+		)
+		(pin "1"
+			(uuid "e701f0d3-5e78-4304-8d88-f4e405f3248f")
+		)
+		(pin "5"
+			(uuid "0c1cd211-9cb4-49c9-9316-b784acf72eee")
+		)
+		(pin "7"
+			(uuid "e449c970-1843-4946-81b7-654300cc93f3")
+		)
+		(pin "6"
+			(uuid "ecbf51ea-f155-4ae6-8e9a-2901d41b657f")
+		)
+		(pin "4"
+			(uuid "89d5aafc-5f02-4648-aecd-7fc8604ce731")
+		)
+		(instances
+			(project "EpsilonAnomalain"
+				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
+					(reference "RN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 111.76 92.71 90)
 		(unit 1)
@@ -16793,6 +17422,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+6V")
+		(at 129.54 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f25d5e2-97cd-4609-90cc-e2c7d2755ef2")
+		(property "Reference" "#PWR057"
+			(at 129.54 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+6V"
+			(at 129.54 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+6V\""
+			(at 129.54 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c834d061-58de-4dd0-a4ff-d9cc0e6315d8")
+		)
+		(instances
+			(project "EpsilonAnomalain"
+				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 139.7 85.09 0)
 		(unit 1)
@@ -16943,7 +17637,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 182.88 0)
+		(at 71.12 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16951,7 +17645,7 @@
 		(dnp no)
 		(uuid "12d0ae04-9abd-428d-b0dd-8adf8b9793f5")
 		(property "Reference" "#PWR024"
-			(at 68.58 189.23 0)
+			(at 71.12 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16960,7 +17654,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 186.69 0)
+			(at 71.12 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16968,7 +17662,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 182.88 0)
+			(at 71.12 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16977,7 +17671,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 182.88 0)
+			(at 71.12 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16986,7 +17680,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 182.88 0)
+			(at 71.12 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17341,74 +18035,6 @@
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 49.53 171.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "180aade3-2d3a-41e7-9227-b2a9a8bf6117")
-		(property "Reference" "R14"
-			(at 49.53 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 49.53 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 49.53 173.228 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 49.53 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "583a8a3b-6dcb-4f8b-b3b8-c12013b1065c")
-		)
-		(pin "2"
-			(uuid "d86634ad-58c9-441c-bfec-c03b356f3371")
-		)
-		(instances
-			(project "EpsilonAnomalain"
-				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -18004,7 +18630,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 272.0848 36.83 0)
 			(effects
 				(font
@@ -18180,6 +18806,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 144.78 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a8d5c87-c307-469b-9e0a-35d2f896bdf4")
+		(property "Reference" "#PWR058"
+			(at 144.78 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b5e67fd-d72a-4ff6-9fea-72fba1709847")
+		)
+		(instances
+			(project "EpsilonAnomalain"
+				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DCDC_Own:TPS61088")
 		(at 236.22 40.64 0)
 		(unit 1)
@@ -18204,7 +18895,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "UltraLibrarian:RHL0020A"
 			(at 236.22 40.64 0)
 			(effects
 				(font
@@ -18464,7 +19155,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 210.5152 34.29 0)
 			(effects
 				(font
@@ -19192,74 +19883,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 49.53 179.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4b7104a5-1501-491c-9b7f-1ccde64aaef1")
-		(property "Reference" "R17"
-			(at 49.53 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 49.53 176.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 49.53 180.848 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 49.53 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "71914232-8cad-4b53-aca9-a8547d6c20b2")
-		)
-		(pin "2"
-			(uuid "cda0956b-9ffb-467a-8398-b4059639248a")
-		)
-		(instances
-			(project "EpsilonAnomalain"
-				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 218.44 41.91 0)
 		(mirror y)
@@ -19961,6 +20584,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 135.89 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57c4d4ac-4d83-45b3-9d51-849a5099f116")
+		(property "Reference" "C28"
+			(at 130.81 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100uF"
+			(at 138.43 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 139.7 167.9448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 135.89 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73745e3c-d4b8-45e8-ac0d-96a1c252ad4c")
+		)
+		(pin "2"
+			(uuid "ce7ef24d-7e17-4870-8f46-da4b731cb3a3")
+		)
+		(instances
+			(project "EpsilonAnomalain"
+				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 40.64 20.32 90)
 		(unit 1)
@@ -20159,142 +20851,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 49.53 181.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5e5d708b-2afc-48fb-9d23-164194427941")
-		(property "Reference" "R18"
-			(at 49.53 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 49.53 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 49.53 183.388 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 49.53 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ba1409a-25df-496c-a38e-578d140623d1")
-		)
-		(pin "2"
-			(uuid "00275e14-5dc3-4f3d-a198-09c1b0abfdfa")
-		)
-		(instances
-			(project "EpsilonAnomalain"
-				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 49.53 163.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "655bff6a-7772-4218-a736-5a4b6d532bdf")
-		(property "Reference" "R11"
-			(at 49.53 163.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 49.53 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 49.53 165.608 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 49.53 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20a30904-3a66-4525-927c-6f46a60cd8af")
-		)
-		(pin "2"
-			(uuid "41d0f5a1-4791-432e-ae72-cee3318c6189")
-		)
-		(instances
-			(project "EpsilonAnomalain"
-				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Crystal_GND24")
 		(at 27.94 109.22 0)
 		(mirror y)
@@ -20436,6 +20992,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 135.89 179.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c6fdcf2-2446-4321-83b1-1ff7d5381c81")
+		(property "Reference" "C30"
+			(at 130.81 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100uF"
+			(at 138.43 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 139.7 178.1048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 135.89 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a329cad3-3003-42a9-8e23-3ae4dc18ed76")
+		)
+		(pin "2"
+			(uuid "e9a4fe29-07ad-4f1c-bcc2-feb22f37599c")
+		)
+		(instances
+			(project "EpsilonAnomalain"
+				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 204.47 92.71 0)
 		(unit 1)
@@ -20565,6 +21190,75 @@
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 135.89 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "740b9ca1-1cc1-4957-90ee-e33a83299045")
+		(property "Reference" "C31"
+			(at 130.81 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100uF"
+			(at 138.43 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 139.7 183.1848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 135.89 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9678801-ccdf-4cfb-8671-2ebbc4ca1854")
+		)
+		(pin "2"
+			(uuid "356cc50d-a3a7-4f5a-9fbe-c28298d62bd4")
+		)
+		(instances
+			(project "EpsilonAnomalain"
+				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -21856,7 +22550,7 @@
 	)
 	(symbol
 		(lib_id "Display_Character:KCSA02-105")
-		(at 60.96 171.45 0)
+		(at 63.5 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21864,23 +22558,23 @@
 		(dnp no)
 		(uuid "8df36b69-7dbd-4fa3-bf8c-eba6d34de60f")
 		(property "Reference" "U6"
-			(at 52.07 157.48 0)
+			(at 55.88 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "KCSA02-105"
-			(at 60.96 157.48 0)
+		(property "Value" "SS206SURWA/S530-A3/S290"
+			(at 62.23 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Display_7Segment:KCSC02-105"
-			(at 60.96 186.69 0)
+		(property "Footprint" "CustomPackage:SS206SURWA"
+			(at 63.5 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21888,8 +22582,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSA02-105(Ver.10A).pdf"
-			(at 48.26 159.385 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409302134_Everlight-Elec-SS206SURWA-S530-A3-S290_C19188062.pdf"
+			(at 50.8 159.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21899,7 +22593,7 @@
 			)
 		)
 		(property "Description" "One digit 7 segment hyper red LED, common anode"
-			(at 60.96 171.45 0)
+			(at 63.5 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22152,74 +22846,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 49.53 168.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "94ff1741-84b1-4d98-851c-09c21330b262")
-		(property "Reference" "R13"
-			(at 49.53 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 49.53 166.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 49.53 170.688 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 49.53 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "406ad432-9d7b-401a-98d4-c8e3244b8e29")
-		)
-		(pin "2"
-			(uuid "e8f52f0e-5398-4c31-9dce-128991d6cf8f")
-		)
-		(instances
-			(project "EpsilonAnomalain"
-				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 135.89 49.53 0)
 		(mirror y)
 		(unit 1)
@@ -22283,6 +22909,75 @@
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
 					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 135.89 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97b08b20-14ee-42f7-bd65-2ec83bef23f2")
+		(property "Reference" "C29"
+			(at 130.81 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100uF"
+			(at 138.43 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 139.7 173.0248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 135.89 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89489690-6b74-4f5a-87d0-0af35731fc85")
+		)
+		(pin "2"
+			(uuid "2a1cf1bd-bbf7-4c05-ad65-0f84c8aa2fc9")
+		)
+		(instances
+			(project "EpsilonAnomalain"
+				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -23805,7 +24500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 35.56 173.99 0)
 			(effects
 				(font
@@ -24226,74 +24921,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 49.53 173.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d68ba022-777f-4fe5-aa01-367e35ddbebf")
-		(property "Reference" "R15"
-			(at 49.53 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 49.53 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 49.53 175.768 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 49.53 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e7ff0a7-2583-410b-b2c3-fb954cf90f40")
-		)
-		(pin "2"
-			(uuid "3e20234a-965d-4553-a5b5-3c51899c1a86")
-		)
-		(instances
-			(project "EpsilonAnomalain"
-				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 273.05 38.1 0)
 		(unit 1)
@@ -24627,6 +25254,92 @@
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04")
+		(at 50.8 166.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ded03c8c-8071-4da0-8f21-765f21ecbdb4")
+		(property "Reference" "RN1"
+			(at 50.8 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 50.8 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
+			(at 50.8 159.385 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology"
+			(at 50.8 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "a36872b1-40c9-4d65-9fd4-692e31d2be90")
+		)
+		(pin "3"
+			(uuid "16637394-136d-4861-b1b8-b83efd86dec4")
+		)
+		(pin "2"
+			(uuid "f2358135-2ef2-47d8-858f-239353c5c15e")
+		)
+		(pin "1"
+			(uuid "886d83b8-7308-458b-8640-96bdc9012b79")
+		)
+		(pin "5"
+			(uuid "f50ac72a-06e7-4349-94cf-d8a62b337eab")
+		)
+		(pin "7"
+			(uuid "46a984b9-5027-4b30-b545-d00fd0c04b71")
+		)
+		(pin "6"
+			(uuid "a0fc1054-ccf2-4480-b6d8-d18ead3c00f3")
+		)
+		(pin "4"
+			(uuid "14133941-5cca-40e4-a887-e2ff8baf045b")
+		)
+		(instances
+			(project ""
+				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
+					(reference "RN1")
 					(unit 1)
 				)
 			)
@@ -25027,74 +25740,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 49.53 166.37 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e984d9d8-98a2-4d10-8d0c-9a08a50add6c")
-		(property "Reference" "R12"
-			(at 49.53 166.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 49.53 163.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 49.53 168.148 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 49.53 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb101e75-9a70-4107-9339-e1cb3a4e9584")
-		)
-		(pin "2"
-			(uuid "b6eb95a3-3c6d-4487-a86c-ab0f6a2db633")
-		)
-		(instances
-			(project "EpsilonAnomalain"
-				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+6V")
 		(at 99.06 171.45 270)
 		(unit 1)
@@ -25225,74 +25870,6 @@
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 49.53 176.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f04d7d40-9ee2-4776-956c-fef8f020a804")
-		(property "Reference" "R16"
-			(at 49.53 176.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 49.53 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 49.53 178.308 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 49.53 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e2decff-3a19-4927-bd3b-f88bfac7956d")
-		)
-		(pin "2"
-			(uuid "92ce9040-b2df-4057-899d-ed27952c9485")
-		)
-		(instances
-			(project "EpsilonAnomalain"
-				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "R16")
 					(unit 1)
 				)
 			)
