@@ -498,7 +498,7 @@
         "microvia_drill": 0.1,
         "name": "Difpair",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(132, 132, 0)",
+        "schematic_color": "rgb(0, 194, 194)",
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -516,6 +516,23 @@
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(0, 0, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "SPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(221, 133, 0)",
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -576,6 +593,70 @@
       {
         "netclass": "Difpair",
         "pattern": "Net-(J6-D+-PadA6)"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/VSPI_CLK"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/VSPI_D"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/VSPI_Q"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/VSPI_CS"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/FSPI_HD"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/FSPI_CS0"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/FSPI_D"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/FSPI_Q"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/FSPI_CLK"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/FSPI_WP"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "Net-(U5-~{CS})"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "Net-(U5-DO)"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "Net-(U5-~{WP})"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "Net-(U5-~{HOLD})"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "Net-(U5-CLK)"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "Net-(U5-DI)"
       }
     ]
   },
