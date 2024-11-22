@@ -1,4 +1,4 @@
-24128914612053648
+24130647157512462
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54467,6 +54467,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 3
 3
 CustomConnectors
+Battery_3V7_Cable_connector_v2
+
+
+0
+2
+2
+CustomConnectors
 Battery_3V7_Cable_solding_connctor
 
 
@@ -96905,8 +96912,8 @@ RHL0020A
 
 TPS61088RHLR 
 0
-25
-22
+31
+21
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins

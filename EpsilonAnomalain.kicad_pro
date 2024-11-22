@@ -455,7 +455,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.129,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -480,7 +480,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "6V",
-        "pcb_color": "rgb(0, 0, 255)",
+        "pcb_color": "rgb(0, 0, 194)",
         "schematic_color": "rgb(0, 0, 194)",
         "track_width": 0.2,
         "via_diameter": 0.5,
@@ -506,7 +506,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.129,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -514,7 +514,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 132, 132)",
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -533,7 +533,7 @@
         "name": "Power",
         "pcb_color": "rgb(0, 194, 0)",
         "schematic_color": "rgb(0, 194, 0)",
-        "track_width": 0.2,
+        "track_width": 0.5,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -548,7 +548,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SPI",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(221, 133, 0)",
         "schematic_color": "rgb(221, 133, 0)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -557,7 +557,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.129,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -682,6 +682,14 @@
       {
         "netclass": "Power",
         "pattern": "+3V8"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "Net-(D2-A)"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "Net-(D2-K)"
       }
     ]
   },
