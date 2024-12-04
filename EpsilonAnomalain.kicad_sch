@@ -6,10 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Barsotion GBK EpsilonAnomalain")
-		(date "2024-11-22")
-		(rev "2.16")
+		(date "2024-12-02")
+		(rev "2.20")
 		(company "Barsotion KOy")
 		(comment 2 "Dev: Kinderknecht Victor (Barsy-Barsevich)")
+		(comment 7 "New BMP388 footprint")
 	)
 	(lib_symbols
 		(symbol "74xx:74HC595"
@@ -8484,12 +8485,6 @@
 		(uuid "8b3e9580-40db-4075-8315-052f512ffa48")
 	)
 	(junction
-		(at 144.78 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8dffb66c-f844-46aa-af15-8fa39f955389")
-	)
-	(junction
 		(at 80.01 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8550,12 +8545,6 @@
 		(uuid "9fe9b67c-55af-4e7b-8287-e70d58c652cc")
 	)
 	(junction
-		(at 152.4 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a1f58239-56a2-413e-ab7e-787dd123ccea")
-	)
-	(junction
 		(at 152.4 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8590,6 +8579,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab80ecb7-861e-4fc8-bd1b-681ecbcb716d")
+	)
+	(junction
+		(at 142.24 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0f119ba-f813-4fcb-b3c6-243b41bde2b5")
 	)
 	(junction
 		(at 24.13 176.53)
@@ -8692,6 +8687,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e320601b-c939-42d4-8154-8251cac305f5")
+	)
+	(junction
+		(at 157.48 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec3bc5c2-762d-4b53-bbff-90f123f270c0")
 	)
 	(junction
 		(at 157.48 29.21)
@@ -8842,14 +8843,6 @@
 		(uuid "b408bd3a-7000-4019-ba9a-18aba896c8b4")
 	)
 	(no_connect
-		(at 78.74 85.09)
-		(uuid "cea0bf84-9a02-41fa-93c9-3935ca65741a")
-	)
-	(no_connect
-		(at 78.74 44.45)
-		(uuid "d757d5b6-1abd-43a6-ac82-c8e68103f31a")
-	)
-	(no_connect
 		(at 78.74 52.07)
 		(uuid "e4ae7b90-a976-4977-855c-25af8e437f3c")
 	)
@@ -8876,6 +8869,16 @@
 			(type default)
 		)
 		(uuid "00c94ea3-4b9a-4474-919c-54f21950be4f")
+	)
+	(wire
+		(pts
+			(xy 78.74 85.09) (xy 92.71 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02cf7410-46c7-4430-add5-dbe473935393")
 	)
 	(wire
 		(pts
@@ -9086,6 +9089,16 @@
 			(type default)
 		)
 		(uuid "0e70d61c-40f5-457f-80da-3741b46d1da3")
+	)
+	(wire
+		(pts
+			(xy 142.24 130.81) (xy 144.78 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e9519e1-db43-4ce9-b867-f92987029bf2")
 	)
 	(wire
 		(pts
@@ -9519,6 +9532,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 64.77) (xy 33.02 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "396f45ed-6a51-47dc-b6e8-d6cd279b5b13")
+	)
+	(wire
+		(pts
 			(xy 223.52 33.02) (xy 220.98 33.02)
 		)
 		(stroke
@@ -9549,6 +9572,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 44.45) (xy 91.44 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c197066-2aff-40d9-ab8c-0b42433ed25e")
+	)
+	(wire
+		(pts
 			(xy 264.16 90.17) (xy 274.32 90.17)
 		)
 		(stroke
@@ -9559,7 +9592,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 125.73) (xy 152.4 130.81)
+			(xy 157.48 125.73) (xy 157.48 130.81)
 		)
 		(stroke
 			(width 0)
@@ -10009,16 +10042,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 125.73) (xy 157.48 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d529900-f00d-4d56-9ee1-d19932c10bdd")
-	)
-	(wire
-		(pts
 			(xy 77.47 128.27) (xy 77.47 134.62)
 		)
 		(stroke
@@ -10129,7 +10152,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 125.73) (xy 144.78 130.81)
+			(xy 142.24 125.73) (xy 142.24 130.81)
 		)
 		(stroke
 			(width 0)
@@ -10619,6 +10642,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 125.73) (xy 152.4 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9410353d-24b3-4051-9ffd-201c9d6a6a23")
+	)
+	(wire
+		(pts
 			(xy 22.86 54.61) (xy 33.02 54.61)
 		)
 		(stroke
@@ -10636,6 +10669,16 @@
 			(type default)
 		)
 		(uuid "94498009-338d-4001-83ac-4408b7f75128")
+	)
+	(wire
+		(pts
+			(xy 22.86 92.71) (xy 33.02 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a4a812-618c-4032-b94c-a0a03a581d62")
 	)
 	(wire
 		(pts
@@ -11869,6 +11912,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 130.81) (xy 152.4 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faef25f0-e663-49ae-a69b-452a49918cf8")
+	)
+	(wire
+		(pts
 			(xy 27.94 119.38) (xy 27.94 114.3)
 		)
 		(stroke
@@ -11969,7 +12022,7 @@
 	)
 	(rectangle
 		(start 163.83 104.14)
-		(end 198.12 133.35)
+		(end 198.12 134.62)
 		(stroke
 			(width 0)
 			(type dash)
@@ -11981,7 +12034,7 @@
 	)
 	(rectangle
 		(start 101.6 104.14)
-		(end 162.56 133.35)
+		(end 162.56 134.62)
 		(stroke
 			(width 0)
 			(type dash)
@@ -27761,6 +27814,17 @@
 		)
 		(uuid "636c5304-edf6-497e-982a-2fd2159ecf74")
 	)
+	(label "BUZ"
+		(at 22.86 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "642d90f0-129f-43c3-a229-55b79cab80e2")
+	)
 	(label "SERVOA"
 		(at 118.11 110.49 180)
 		(fields_autoplaced yes)
@@ -27793,17 +27857,6 @@
 			(justify left bottom)
 		)
 		(uuid "6b5f7371-1697-4aae-b825-fe7995d44e1d")
-	)
-	(label "BUZ"
-		(at 92.71 80.01 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6dec35e0-c2bc-48d4-a496-5d42ab63d290")
 	)
 	(label "TX0_RAW"
 		(at 92.71 93.98 180)
@@ -27894,7 +27947,7 @@
 		(uuid "8ceec06e-6879-47e7-9f2d-c0ac99f1456a")
 	)
 	(label "LD_CLK"
-		(at 0 49.53 0)
+		(at 22.86 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -27903,6 +27956,17 @@
 			(justify left bottom)
 		)
 		(uuid "9f89bfa8-0b64-4e36-acc8-52d94034e637")
+	)
+	(label "OFF"
+		(at 92.71 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a3809670-6dc7-4196-b608-f893d3f61021")
 	)
 	(label "FSPI_CLK"
 		(at 22.86 74.93 0)
@@ -28025,14 +28089,14 @@
 		)
 		(uuid "b9a3ea18-7959-475a-88d5-ee953e25cdef")
 	)
-	(label "LD_D"
-		(at 0 46.99 0)
+	(label "LD_OE"
+		(at 92.71 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "be523c11-6f5a-46b5-9cd8-65ad1afebbee")
 	)
@@ -28157,14 +28221,14 @@
 		)
 		(uuid "e4cdba3c-67b8-4997-944c-878b2a07f2e4")
 	)
-	(label "LD_OE"
-		(at 0 44.45 0)
+	(label "LD_D"
+		(at 91.44 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ee225225-39f1-44f8-a706-cf1a8fabd03b")
 	)
@@ -28241,10 +28305,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "00b4a323-9d40-406d-a777-bd3b467db791")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 106.045 119.38 0)
 			(effects
 				(font
@@ -28299,7 +28363,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -28314,7 +28378,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0126e0b9-a3c7-4c68-b35e-8ee3156c3459")
-		(property "Reference" "C22"
+		(property "Reference" "C16"
 			(at 149.86 33.02 0)
 			(effects
 				(font
@@ -28368,7 +28432,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "C22")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -28383,7 +28447,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01ab7c63-99ed-4cef-9525-3cfd1953cc30")
-		(property "Reference" "RN2"
+		(property "Reference" "RN5"
 			(at 50.8 184.15 90)
 			(effects
 				(font
@@ -28454,7 +28518,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "RN2")
+					(reference "RN5")
 					(unit 1)
 				)
 			)
@@ -28470,7 +28534,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "023d8ce4-f790-4d5e-9d0f-572af3d7b438")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR038"
 			(at 118.11 95.25 0)
 			(effects
 				(font
@@ -28521,7 +28585,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR027")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -28536,7 +28600,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0508ce21-a903-4c1e-9ef1-de5bf7788f50")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR049"
 			(at 33.02 125.73 0)
 			(effects
 				(font
@@ -28586,7 +28650,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR074")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -28671,7 +28735,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05b8484b-7a5c-4a16-ba67-4fa0674ac3c9")
-		(property "Reference" "C23"
+		(property "Reference" "C12"
 			(at 193.04 31.75 0)
 			(effects
 				(font
@@ -28725,7 +28789,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "C23")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -28741,8 +28805,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0837bb3f-3789-4d71-94dd-196283df1273")
-		(property "Reference" "R12"
-			(at 41.91 135.255 90)
+		(property "Reference" "R16"
+			(at 41.91 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28795,7 +28859,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "R12")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -28810,7 +28874,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08ce10d8-3872-4b13-9798-a596c3a22b54")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR029"
 			(at 274.32 76.2 0)
 			(effects
 				(font
@@ -28860,7 +28924,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR011")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -28875,7 +28939,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0cd9aaba-a9c9-41e7-8f91-1facef991734")
-		(property "Reference" "U2"
+		(property "Reference" "U5"
 			(at 227.965 67.945 0)
 			(effects
 				(font
@@ -28963,7 +29027,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "U2")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -28979,7 +29043,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0eda1de7-a4b0-4fc8-8f1e-c054e64c399f")
-		(property "Reference" "C25"
+		(property "Reference" "C13"
 			(at 260.985 31.75 90)
 			(effects
 				(font
@@ -29033,7 +29097,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "C25")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -29048,7 +29112,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f25d5e2-97cd-4609-90cc-e2c7d2755ef2")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR043"
 			(at 142.24 114.3 0)
 			(effects
 				(font
@@ -29098,7 +29162,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR057")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -29113,7 +29177,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1043f975-fb99-45ce-9ccb-13932153b6c4")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR033"
 			(at 139.7 91.44 0)
 			(effects
 				(font
@@ -29163,7 +29227,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR017")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -29178,7 +29242,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "113106c0-a65b-4593-b4da-02d22bc2e50e")
-		(property "Reference" "U10"
+		(property "Reference" "U3"
 			(at 151.13 54.61 0)
 			(effects
 				(font
@@ -29247,7 +29311,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "U10")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -29262,7 +29326,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "12d0ae04-9abd-428d-b0dd-8adf8b9793f5")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR071"
 			(at 71.12 189.23 0)
 			(effects
 				(font
@@ -29312,7 +29376,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR024")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -29327,7 +29391,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14aca0c5-c1ce-4b30-b140-fa47b621addd")
-		(property "Reference" "J6"
+		(property "Reference" "J1"
 			(at 110.49 16.51 0)
 			(effects
 				(font
@@ -29418,7 +29482,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "J6")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -29434,7 +29498,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15d0a448-2335-4093-828a-c1c8a8d9ca1c")
-		(property "Reference" "RN5"
+		(property "Reference" "RN6"
 			(at 96.52 184.15 90)
 			(effects
 				(font
@@ -29505,7 +29569,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "RN5")
+					(reference "RN6")
 					(unit 1)
 				)
 			)
@@ -29520,7 +29584,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16636f7b-f816-43fb-afa2-e30ea67c6066")
-		(property "Reference" "U1"
+		(property "Reference" "U4"
 			(at 43.561 112.014 0)
 			(effects
 				(font
@@ -29739,7 +29803,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "U1")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -29823,7 +29887,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18a3098b-fcb3-41ae-a39d-6f2f051b1313")
-		(property "Reference" "RN6"
+		(property "Reference" "RN3"
 			(at 96.52 158.75 90)
 			(effects
 				(font
@@ -29894,7 +29958,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "RN6")
+					(reference "RN3")
 					(unit 1)
 				)
 			)
@@ -29910,7 +29974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a0d4f02-c07e-4f9e-b43c-d78547683b4f")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG03"
 			(at 163.83 24.765 0)
 			(effects
 				(font
@@ -29961,7 +30025,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#FLG01")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -29976,7 +30040,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b0d717b-ed14-4cb7-9d20-3fae68ade56c")
-		(property "Reference" "R21"
+		(property "Reference" "R2"
 			(at 219.71 26.67 0)
 			(effects
 				(font
@@ -30030,7 +30094,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "R21")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -30045,7 +30109,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ca9e442-73b0-4399-9f67-68cedbdde1c6")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR059"
 			(at 91.44 138.43 0)
 			(effects
 				(font
@@ -30095,7 +30159,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR071")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -30110,7 +30174,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f233011-2df7-4e30-90a3-678c5c09b5e3")
-		(property "Reference" "C16"
+		(property "Reference" "C21"
 			(at 165.1 67.31 90)
 			(effects
 				(font
@@ -30164,7 +30228,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "C16")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -30179,7 +30243,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1fa95691-eefc-489c-baa3-a79cd7164d17")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR057"
 			(at 184.15 135.89 0)
 			(effects
 				(font
@@ -30229,7 +30293,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR065")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -30244,7 +30308,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "205920b2-640c-4be0-83e4-5f012985b073")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR018"
 			(at 270.51 44.45 0)
 			(effects
 				(font
@@ -30294,7 +30358,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR054")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -30309,7 +30373,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20a42cff-2149-4baa-abfe-ac1a20e89a9c")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR055"
 			(at 113.03 135.89 0)
 			(effects
 				(font
@@ -30360,7 +30424,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR034")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -30375,7 +30439,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20e80cb4-c590-4bbb-acbf-2898d0ebfa21")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 73.66 129.54 0)
 			(effects
 				(font
@@ -30427,7 +30491,73 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "D4")
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 90.17 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20f6ed98-440d-4050-bcba-a3cd4a04da7e")
+		(property "Reference" "#PWR072"
+			(at 93.98 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 86.36 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 90.17 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d24c398d-a90a-47b2-ab66-405cb6f2f84e")
+		)
+		(instances
+			(project "EpsilonAnomalain"
+				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -30442,7 +30572,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "215db51c-4714-4054-a4cf-908f327d6e8b")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR017"
 			(at 147.32 48.26 0)
 			(effects
 				(font
@@ -30492,7 +30622,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR050")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -30505,10 +30635,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2168cae1-53f4-4824-8f13-817dddc45212")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 125.095 119.38 0)
 			(effects
 				(font
@@ -30563,7 +30693,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -30578,7 +30708,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "251ba7de-f061-4e9a-b758-593d2f2fd43a")
-		(property "Reference" "U5"
+		(property "Reference" "U10"
 			(at 113.03 161.29 0)
 			(effects
 				(font
@@ -30650,7 +30780,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "U5")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -30666,8 +30796,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "262734aa-66d8-4a40-985b-5efb348d72e7")
-		(property "Reference" "R24"
-			(at 253.365 44.45 90)
+		(property "Reference" "R7"
+			(at 254 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30720,7 +30850,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "R24")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -30735,7 +30865,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26ec02ad-dfa1-462c-b82c-3be2be6a682e")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR053"
 			(at 29.21 133.35 0)
 			(effects
 				(font
@@ -30785,7 +30915,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR060")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -30801,7 +30931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28bcb25b-3945-477c-85fd-31974e434ed9")
-		(property "Reference" "C27"
+		(property "Reference" "C14"
 			(at 275.59 31.75 0)
 			(effects
 				(font
@@ -30855,7 +30985,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "C27")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -30870,7 +31000,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a6ab8fa-4055-4374-a31f-ece04c9386b1")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR019"
 			(at 218.44 52.07 0)
 			(effects
 				(font
@@ -30920,7 +31050,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR037")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -30928,15 +31058,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 125.73 0)
+		(at 157.48 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2a8d5c87-c307-469b-9e0a-35d2f896bdf4")
-		(property "Reference" "#PWR058"
-			(at 157.48 132.08 0)
+		(property "Reference" "#PWR050"
+			(at 163.83 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30945,7 +31075,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 129.54 0)
+			(at 160.02 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30953,7 +31083,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 125.73 0)
+			(at 157.48 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30962,7 +31092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 125.73 0)
+			(at 157.48 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30971,7 +31101,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 125.73 0)
+			(at 157.48 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30985,7 +31115,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR058")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -31000,7 +31130,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2da2cecb-4ed9-4e42-ab01-f3afe90ce4cf")
-		(property "Reference" "U8"
+		(property "Reference" "U2"
 			(at 231.14 59.69 0)
 			(effects
 				(font
@@ -31109,7 +31239,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "U8")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -31124,7 +31254,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ea19bbc-274b-4358-aae6-69811c4f9180")
-		(property "Reference" "D6"
+		(property "Reference" "D7"
 			(at 73.66 142.24 0)
 			(effects
 				(font
@@ -31176,7 +31306,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "D6")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -31191,7 +31321,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "354d10c3-870c-40de-82ea-9ed51b510733")
-		(property "Reference" "C14"
+		(property "Reference" "C22"
 			(at 264.16 74.93 0)
 			(effects
 				(font
@@ -31245,7 +31375,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "C14")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -31261,8 +31391,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "355b9872-2a7f-49cb-9146-97c04f541650")
-		(property "Reference" "R16"
-			(at 163.83 178.435 90)
+		(property "Reference" "R19"
+			(at 163.83 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31315,7 +31445,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "R16")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -31330,7 +31460,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3573392f-5e24-4619-a0f7-42f395f76ab7")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR020"
 			(at 270.51 49.53 0)
 			(effects
 				(font
@@ -31380,7 +31510,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR040")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -31395,7 +31525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "366cbc96-8329-4de4-a253-2b1510232207")
-		(property "Reference" "C26"
+		(property "Reference" "C9"
 			(at 207.01 29.21 0)
 			(effects
 				(font
@@ -31449,7 +31579,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "C26")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -31464,7 +31594,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38ed8e15-0b8c-42bd-8c09-7bddb4018369")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR031"
 			(at 274.32 86.36 0)
 			(effects
 				(font
@@ -31514,7 +31644,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR010")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -31530,7 +31660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a273bdb-b9b7-48fc-af24-5aefd16e72ce")
-		(property "Reference" "D1"
+		(property "Reference" "D3"
 			(at 171.45 45.72 0)
 			(effects
 				(font
@@ -31586,7 +31716,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "D1")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -31601,7 +31731,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d4a0aaf-ffa7-4866-ba82-2ed934a96752")
-		(property "Reference" "RN8"
+		(property "Reference" "RN1"
 			(at 209.55 72.39 90)
 			(effects
 				(font
@@ -31610,7 +31740,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Pack04_Split"
+		(property "Value" "47"
 			(at 210.8201 74.93 0)
 			(effects
 				(font
@@ -31674,7 +31804,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "RN8")
+					(reference "RN1")
 					(unit 4)
 				)
 			)
@@ -31689,7 +31819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f7b3ccd-0291-4af0-851a-1421835f1965")
-		(property "Reference" "U4"
+		(property "Reference" "U6"
 			(at 132.08 70.485 0)
 			(effects
 				(font
@@ -31755,7 +31885,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "U4")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -31771,7 +31901,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41906609-7c5a-4288-9f87-e11ba60a2e4d")
-		(property "Reference" "C13"
+		(property "Reference" "C24"
 			(at 201.93 87.63 0)
 			(effects
 				(font
@@ -31825,7 +31955,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "C13")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -31910,7 +32040,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44648950-4824-4707-8a11-0fd65247a871")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR074"
 			(at 113.03 194.31 0)
 			(effects
 				(font
@@ -31960,7 +32090,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR018")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -31973,10 +32103,10 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "468c5896-f396-4d7f-a0bb-38b337c732a5")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 130.81 138.4299 0)
 			(effects
 				(font
@@ -32024,7 +32154,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -32039,7 +32169,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46ddb0fb-e113-467b-a636-e683072fb72e")
-		(property "Reference" "C7"
+		(property "Reference" "C11"
 			(at 43.18 30.48 0)
 			(effects
 				(font
@@ -32093,7 +32223,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "C7")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -32176,7 +32306,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "480b15bb-27da-403a-91e7-299b6faac1a8")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR024"
 			(at 114.3 64.77 0)
 			(effects
 				(font
@@ -32226,7 +32356,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR047")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -32241,7 +32371,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "488c02c7-6382-426f-a628-657de29c2aab")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR034"
 			(at 204.47 88.9 0)
 			(effects
 				(font
@@ -32291,7 +32421,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR08")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -32307,7 +32437,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "496d6d54-5ffb-49f1-a2f8-a6fe916c3f1d")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR03"
 			(at 213.36 22.86 0)
 			(effects
 				(font
@@ -32358,7 +32488,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR052")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -32373,7 +32503,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a706d0d-cf76-4198-a6aa-90a14eb7be39")
-		(property "Reference" "C6"
+		(property "Reference" "C2"
 			(at 19.05 21.59 0)
 			(effects
 				(font
@@ -32427,7 +32557,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "C6")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -32443,7 +32573,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4cbc952d-7ae2-4711-9baa-4732b138324a")
-		(property "Reference" "C18"
+		(property "Reference" "C19"
 			(at 220.98 40.64 0)
 			(effects
 				(font
@@ -32497,7 +32627,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "C18")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -32512,7 +32642,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4cd11a6e-c2f1-4397-8820-789c88d41e86")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR037"
 			(at 217.17 100.33 0)
 			(effects
 				(font
@@ -32562,7 +32692,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR07")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -32578,8 +32708,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d3be8b7-3d24-42df-b957-041f81f7f793")
-		(property "Reference" "R1"
-			(at 213.36 68.58 90)
+		(property "Reference" "R10"
+			(at 213.995 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32632,7 +32762,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "R1")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -32647,7 +32777,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e6b4039-209d-4c71-b5f9-15def5a8f378")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR061"
 			(at 29.21 153.67 0)
 			(effects
 				(font
@@ -32697,7 +32827,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR059")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -32712,7 +32842,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e86da7c-87f7-490b-b55b-94e953fe327a")
-		(property "Reference" "C12"
+		(property "Reference" "C7"
 			(at 84.455 22.225 0)
 			(effects
 				(font
@@ -32766,7 +32896,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "C12")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -32781,7 +32911,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fbcb50b-4b47-41bd-98af-9ce4d8a73eb9")
-		(property "Reference" "C3"
+		(property "Reference" "C5"
 			(at 47.625 22.225 0)
 			(effects
 				(font
@@ -32835,7 +32965,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "C3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -32887,7 +33017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "TS-1187A-B-A-B"
 			(at 41.91 142.24 0)
 			(effects
 				(font
@@ -32920,7 +33050,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51952312-220a-4501-980f-bdc63a52ac7c")
-		(property "Reference" "C19"
+		(property "Reference" "C17"
 			(at 208.915 36.195 0)
 			(effects
 				(font
@@ -32974,7 +33104,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "C19")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -32990,7 +33120,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "525db2db-7d15-4d4e-a286-cb1ab720af81")
-		(property "Reference" "R20"
+		(property "Reference" "R12"
 			(at 113.03 76.2 90)
 			(effects
 				(font
@@ -33042,7 +33172,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "R20")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -33057,7 +33187,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "531d8db6-3d7a-4389-aa83-413f7309dcd4")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR016"
 			(at 213.36 46.99 0)
 			(effects
 				(font
@@ -33107,7 +33237,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR041")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -33122,7 +33252,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54277ade-273e-45ad-8617-c7f20b0fdc3f")
-		(property "Reference" "U3"
+		(property "Reference" "U7"
 			(at 149.86 73.66 0)
 			(effects
 				(font
@@ -33198,7 +33328,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "U3")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -33213,7 +33343,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57c4d4ac-4d83-45b3-9d51-849a5099f116")
-		(property "Reference" "C28"
+		(property "Reference" "C26"
 			(at 143.51 109.22 90)
 			(effects
 				(font
@@ -33267,7 +33397,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "C28")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -33290,7 +33420,7 @@
 				)
 			)
 		)
-		(property "Value" "2.7nH"
+		(property "Value" "2.2nH"
 			(at 43.18 17.78 90)
 			(effects
 				(font
@@ -33350,7 +33480,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a6d7019-2856-4348-a5bf-6f9a474b67cb")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR065"
 			(at 106.68 158.75 0)
 			(effects
 				(font
@@ -33401,7 +33531,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR073")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -33416,7 +33546,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5bd36c77-3ac1-4a94-9976-7768d5ed4add")
-		(property "Reference" "D7"
+		(property "Reference" "D8"
 			(at 73.66 148.59 0)
 			(effects
 				(font
@@ -33468,7 +33598,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "D7")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -33483,7 +33613,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5bef780d-375b-4c82-ad7b-7bdee1eac0ec")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR064"
 			(at 35.56 162.56 0)
 			(effects
 				(font
@@ -33533,7 +33663,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR020")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -33549,7 +33679,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c4ed536-189a-4985-bb69-90341df44074")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR014"
 			(at 157.48 44.45 0)
 			(effects
 				(font
@@ -33599,7 +33729,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR045")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -33614,7 +33744,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5cedcd67-db68-4a74-ba35-0a4a7354b289")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR073"
 			(at 116.84 185.42 0)
 			(effects
 				(font
@@ -33665,7 +33795,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR019")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -33680,7 +33810,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64824f37-fffb-470a-ae13-4d5b960e5a04")
-		(property "Reference" "D8"
+		(property "Reference" "D4"
 			(at 170.18 110.49 0)
 			(effects
 				(font
@@ -33736,7 +33866,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "D8")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -33825,7 +33955,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b316bed-a98c-4ae5-a95a-3c1390eaa964")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 152.4 17.145 0)
 			(effects
 				(font
@@ -33877,7 +34007,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -33961,7 +34091,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d5a1bd4-90f4-4a51-b828-2a0dc4415268")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR036"
 			(at 204.47 99.06 0)
 			(effects
 				(font
@@ -34011,7 +34141,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR09")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -34027,7 +34157,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72ba5b44-634a-4b93-9ced-2646eb328208")
-		(property "Reference" "C1"
+		(property "Reference" "C27"
 			(at 22.352 112.903 0)
 			(effects
 				(font
@@ -34081,7 +34211,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "C1")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -34161,7 +34291,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73ea61f7-e27e-43fb-9cf9-8a4cd5232b2e")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR058"
 			(at 54.61 134.62 0)
 			(effects
 				(font
@@ -34211,7 +34341,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR064")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -34224,10 +34354,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "740297ff-94a0-4026-b780-df3fbe2e7765")
-		(property "Reference" "J7"
+		(property "Reference" "J8"
 			(at 141.605 166.37 0)
 			(effects
 				(font
@@ -34279,7 +34409,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "J7")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -34363,7 +34493,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "748a4b98-f934-4d91-aa36-a66e3d4698a6")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR067"
 			(at 163.83 168.91 0)
 			(effects
 				(font
@@ -34413,7 +34543,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR066")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -34426,10 +34556,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "74c90a49-6056-4cce-88a5-21580a66cb0c")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 125.095 105.41 0)
 			(effects
 				(font
@@ -34484,7 +34614,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -34500,7 +34630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74e58b39-aaec-47ba-a7d3-33f444d0182c")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG02"
 			(at 58.42 18.415 0)
 			(effects
 				(font
@@ -34551,7 +34681,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#FLG04")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -34567,7 +34697,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75cf7f0f-55a3-4e7c-a0e7-af1b37a2f475")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR013"
 			(at 152.4 44.45 0)
 			(effects
 				(font
@@ -34617,7 +34747,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR046")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -34632,7 +34762,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "777cf407-e1b2-42e4-aa19-3c200dc94e33")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR011"
 			(at 179.07 43.18 0)
 			(effects
 				(font
@@ -34682,7 +34812,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR043")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -34697,7 +34827,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77c1d4ec-d297-4ab5-92b5-91c0de73294f")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR01"
 			(at 17.78 24.13 0)
 			(effects
 				(font
@@ -34747,7 +34877,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR03")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -34762,7 +34892,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b59bda4-8836-4650-b2a1-06073b1bfdcf")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR042"
 			(at 184.15 113.03 0)
 			(effects
 				(font
@@ -34812,7 +34942,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR022")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -34897,7 +35027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d2ef514-96a8-4109-8b6f-925bc1ab5d1d")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR09"
 			(at 82.55 40.64 0)
 			(effects
 				(font
@@ -34947,7 +35077,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR05")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -34962,7 +35092,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d515772-fe82-42a9-a78d-5f1b87b58f90")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR056"
 			(at 132.08 135.89 0)
 			(effects
 				(font
@@ -35013,7 +35143,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR036")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -35028,8 +35158,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7dd41d3d-461f-4c28-8c45-c902721a0041")
-		(property "Reference" "R27"
-			(at 252.095 33.02 90)
+		(property "Reference" "R5"
+			(at 252.73 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35037,7 +35167,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "124k"
+		(property "Value" "28.7k"
 			(at 251.46 35.56 90)
 			(effects
 				(font
@@ -35082,7 +35212,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "R27")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -35097,7 +35227,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f640b7e-08f6-40a9-94ff-0ba62ca639da")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR05"
 			(at 190.5 29.21 0)
 			(effects
 				(font
@@ -35147,7 +35277,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR042")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -35163,7 +35293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fa6b205-9651-431e-8fe2-cc11f78cb9d8")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR046"
 			(at 127 113.03 0)
 			(effects
 				(font
@@ -35214,7 +35344,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR031")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -35229,7 +35359,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81559f6e-b78a-4dcb-b46c-c066a604d2ba")
-		(property "Reference" "C21"
+		(property "Reference" "C20"
 			(at 254 48.26 90)
 			(effects
 				(font
@@ -35283,7 +35413,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "C21")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -35299,8 +35429,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8412dfc6-5d29-4898-baa3-b11a76378bbd")
-		(property "Reference" "R23"
-			(at 258.445 27.94 90)
+		(property "Reference" "R3"
+			(at 259.08 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35353,7 +35483,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "R23")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -35366,10 +35496,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "84d0f80a-2bb4-4f3f-a6d4-6ca128ea6fd2")
-		(property "Reference" "J8"
+		(property "Reference" "J7"
 			(at 84.455 129.54 0)
 			(effects
 				(font
@@ -35427,7 +35557,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "J8")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -35443,7 +35573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86393589-55c9-493b-88d8-7bc255d6cdef")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR051"
 			(at 107.95 127 0)
 			(effects
 				(font
@@ -35494,7 +35624,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR033")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -35510,8 +35640,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87e36262-0a60-4964-8133-eb06e0f0be8a")
-		(property "Reference" "R26"
-			(at 171.45 34.925 90)
+		(property "Reference" "R4"
+			(at 171.45 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35564,7 +35694,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "R26")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -35579,7 +35709,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ac9bffd-64b7-460d-a415-b74b3d692410")
-		(property "Reference" "RN3"
+		(property "Reference" "RN2"
 			(at 59.69 130.81 90)
 			(effects
 				(font
@@ -35650,7 +35780,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "RN3")
+					(reference "RN2")
 					(unit 1)
 				)
 			)
@@ -35665,7 +35795,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b726cc8-7ea4-448a-9b50-8b06109a04d2")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR027"
 			(at 184.15 69.85 0)
 			(effects
 				(font
@@ -35715,7 +35845,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR012")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -35730,7 +35860,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b8d3b55-e005-4b8c-b679-70d21a8f50f3")
-		(property "Reference" "U9"
+		(property "Reference" "U1"
 			(at 179.07 21.59 0)
 			(effects
 				(font
@@ -35791,7 +35921,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "U9")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -35843,7 +35973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "TS-1187A-B-A-B"
 			(at 22.86 142.24 0)
 			(effects
 				(font
@@ -35876,7 +36006,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ccf7c07-87ce-4738-8c93-8c1316ff7302")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR075"
 			(at 35.56 198.12 0)
 			(effects
 				(font
@@ -35926,7 +36056,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR021")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -35942,7 +36072,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ddbd48f-9719-4161-99ec-9aae2f19cc5a")
-		(property "Reference" "R19"
+		(property "Reference" "R11"
 			(at 113.03 73.66 90)
 			(effects
 				(font
@@ -35994,7 +36124,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "R19")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -36009,7 +36139,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8df36b69-7dbd-4fa3-bf8c-eba6d34de60f")
-		(property "Reference" "U6"
+		(property "Reference" "U8"
 			(at 55.88 160.02 0)
 			(effects
 				(font
@@ -36086,7 +36216,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "U6")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -36101,7 +36231,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f665430-303f-4bb1-a9dd-547b84f9c7c3")
-		(property "Reference" "C15"
+		(property "Reference" "C23"
 			(at 276.86 74.93 0)
 			(effects
 				(font
@@ -36155,7 +36285,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "C15")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -36171,7 +36301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91a53b98-486b-4bca-9c5b-ec0879452262")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG01"
 			(at 53.34 18.415 0)
 			(effects
 				(font
@@ -36222,7 +36352,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#FLG03")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -36237,7 +36367,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91ac5927-74c3-464c-9352-a3ceef8f3512")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR039"
 			(at 107.95 97.79 0)
 			(effects
 				(font
@@ -36287,7 +36417,76 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR026")
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 90.17 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92c803c7-0cec-478e-ae64-356c47fcf826")
+		(property "Reference" "C34"
+			(at 87.63 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 87.63 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 91.1352 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 90.17 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b801516d-d697-4fbc-9ae6-fa913a25f7a4")
+		)
+		(pin "2"
+			(uuid "79e14dc6-2b1a-4653-aec6-e940847d18cb")
+		)
+		(instances
+			(project "EpsilonAnomalain"
+				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -36303,8 +36502,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "94a7395d-eba7-4794-9f6d-b209d10db099")
-		(property "Reference" "R25"
-			(at 157.48 36.195 90)
+		(property "Reference" "R6"
+			(at 157.48 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36357,7 +36556,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "R25")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -36373,8 +36572,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9568aa8d-9d39-4c15-a3a0-b1b821526c31")
-		(property "Reference" "R29"
-			(at 135.89 51.435 90)
+		(property "Reference" "R9"
+			(at 135.89 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36427,7 +36626,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "R29")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -36442,7 +36641,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95bb9eec-209b-4650-a35e-e37299518321")
-		(property "Reference" "RN8"
+		(property "Reference" "RN1"
 			(at 262.89 87.63 90)
 			(effects
 				(font
@@ -36451,7 +36650,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Pack04_Split"
+		(property "Value" "47"
 			(at 261.6199 85.09 0)
 			(effects
 				(font
@@ -36489,33 +36688,33 @@
 			)
 		)
 		(pin "1"
-			(uuid "9b793287-2a47-4d11-a911-2a0702cbd088")
+			(uuid "9b793287-2a47-4d11-a911-2a0702cbd089")
 		)
 		(pin "2"
-			(uuid "5df22f50-a3b6-409e-a500-c00a03c5d37a")
+			(uuid "5df22f50-a3b6-409e-a500-c00a03c5d37b")
 		)
 		(pin "5"
-			(uuid "cbf7e286-6e8d-4e92-8ea3-428f67b8ed0d")
+			(uuid "cbf7e286-6e8d-4e92-8ea3-428f67b8ed0e")
 		)
 		(pin "8"
-			(uuid "46db789d-191d-4e89-b1aa-80085c39c744")
+			(uuid "46db789d-191d-4e89-b1aa-80085c39c745")
 		)
 		(pin "7"
-			(uuid "60ab1b5c-6a72-4ee3-973a-99b17ec9b5aa")
+			(uuid "60ab1b5c-6a72-4ee3-973a-99b17ec9b5ab")
 		)
 		(pin "3"
-			(uuid "87672df7-1e50-44fc-8dfb-645357d48407")
+			(uuid "87672df7-1e50-44fc-8dfb-645357d48408")
 		)
 		(pin "6"
-			(uuid "bbda65e1-99d1-4080-b8f8-d25ab1e86369")
+			(uuid "bbda65e1-99d1-4080-b8f8-d25ab1e8636a")
 		)
 		(pin "4"
-			(uuid "ddc9828a-162b-4369-992d-271f7a141b48")
+			(uuid "ddc9828a-162b-4369-992d-271f7a141b49")
 		)
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "RN8")
+					(reference "RN1")
 					(unit 2)
 				)
 			)
@@ -36599,7 +36798,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a52a872-8aa8-431d-874a-c5223059afdc")
-		(property "Reference" "D5"
+		(property "Reference" "D6"
 			(at 73.66 135.89 0)
 			(effects
 				(font
@@ -36651,7 +36850,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "D5")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -36666,7 +36865,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a70ba79-1fd8-4710-8208-325902942279")
-		(property "Reference" "C8"
+		(property "Reference" "C10"
 			(at 34.29 30.48 0)
 			(effects
 				(font
@@ -36720,7 +36919,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "C8")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -36736,8 +36935,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b363cf3-054c-4229-b2d8-9d1057f22ea0")
-		(property "Reference" "R28"
-			(at 130.81 51.435 90)
+		(property "Reference" "R8"
+			(at 130.81 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36790,7 +36989,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "R28")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -36805,7 +37004,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c15e311-a5ab-4058-b1aa-b025cada567b")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR062"
 			(at 41.91 153.67 0)
 			(effects
 				(font
@@ -36855,7 +37054,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR061")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -36870,7 +37069,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e0604d0-0402-4350-b5dd-5729a7fb9e3b")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR07"
 			(at 55.88 31.75 0)
 			(effects
 				(font
@@ -36920,7 +37119,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR04")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -36936,7 +37135,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9efec72f-d5ef-4a1a-bf5d-3a6068bb6a7a")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 130.81 17.145 0)
 			(effects
 				(font
@@ -36988,7 +37187,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -37004,8 +37203,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f7af8c4-b076-445f-8ff4-58c51a7fdc80")
-		(property "Reference" "R22"
-			(at 251.46 24.765 90)
+		(property "Reference" "R1"
+			(at 251.46 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37058,7 +37257,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "R22")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -37073,7 +37272,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a082a331-fa48-4d59-add4-be114b7fa15d")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR08"
 			(at 270.51 27.94 0)
 			(effects
 				(font
@@ -37123,7 +37322,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR039")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -37138,7 +37337,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1665e37-9473-4cda-ab33-199f86cb4c2b")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR041"
 			(at 80.01 114.3 0)
 			(effects
 				(font
@@ -37188,7 +37387,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR025")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -37201,7 +37400,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a4c18923-8140-47f5-ab23-b830454f0151")
 		(property "Reference" "H1"
@@ -37333,7 +37532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8e0ed63-79b2-4b79-b30e-400703f7afc1")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 106.045 85.09 0)
 			(effects
 				(font
@@ -37391,7 +37590,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -37406,7 +37605,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aad5b6e3-9fd2-4e8e-bc69-0a37ff0acef4")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR012"
 			(at 190.5 43.18 0)
 			(effects
 				(font
@@ -37456,7 +37655,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR044")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -37536,7 +37735,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac89d60c-2cb6-42f5-9fbe-e918d69db11d")
-		(property "Reference" "C9"
+		(property "Reference" "C15"
 			(at 72.39 33.02 90)
 			(effects
 				(font
@@ -37590,7 +37789,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "C9")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -37673,7 +37872,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae776061-2183-40c8-a129-0da8da4feba9")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR060"
 			(at 91.44 149.86 0)
 			(effects
 				(font
@@ -37723,7 +37922,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR070")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -37739,7 +37938,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b38b4493-0e6a-4de2-9752-deadaaeb565b")
-		(property "Reference" "C32"
+		(property "Reference" "C33"
 			(at 31.75 140.97 0)
 			(effects
 				(font
@@ -37793,7 +37992,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "C32")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -37808,7 +38007,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5c6ee7a-a560-4ba5-acd5-834c94eec372")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR035"
 			(at 129.54 99.06 0)
 			(effects
 				(font
@@ -37858,7 +38057,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR016")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -37910,7 +38109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "TS-1187A-B-A-B"
 			(at 163.83 36.83 0)
 			(effects
 				(font
@@ -37943,7 +38142,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7098970-6507-4cfb-b4ed-fa2c974c7936")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR048"
 			(at 132.08 121.92 0)
 			(effects
 				(font
@@ -37994,7 +38193,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR032")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -38010,8 +38209,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b92c4c42-6a8c-47c0-941f-960dddacee2b")
-		(property "Reference" "R2"
-			(at 107.95 158.75 90)
+		(property "Reference" "R17"
+			(at 108.585 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38020,7 +38219,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 107.95 156.21 90)
+			(at 108.585 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38064,7 +38263,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "R2")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -38079,7 +38278,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbd2eb69-da0b-402a-a9b1-3a39a703f99d")
-		(property "Reference" "C10"
+		(property "Reference" "C8"
 			(at 64.77 26.67 90)
 			(effects
 				(font
@@ -38133,7 +38332,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "C10")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -38149,7 +38348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1c50438-eee4-4347-9558-a46af9c99f0c")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR04"
 			(at 269.24 22.86 0)
 			(effects
 				(font
@@ -38200,7 +38399,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR053")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -38215,7 +38414,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2cdc112-9405-4b1d-bbc9-baa6acc9d661")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR022"
 			(at 248.92 62.23 0)
 			(effects
 				(font
@@ -38265,7 +38464,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR051")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -38278,10 +38477,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c515c09f-0d4d-4a7e-aa76-5517569f0c91")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 106.045 105.41 0)
 			(effects
 				(font
@@ -38336,7 +38535,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -38352,8 +38551,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5de3aad-1757-46a4-bb29-b85dc73172f9")
-		(property "Reference" "R11"
-			(at 29.21 135.255 90)
+		(property "Reference" "R15"
+			(at 29.21 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38406,7 +38605,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "R11")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -38421,7 +38620,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6859a2e-b214-4c4f-bb54-ddae18042fdc")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR06"
 			(at 17.78 34.29 0)
 			(effects
 				(font
@@ -38471,7 +38670,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR02")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -38486,7 +38685,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c85cbb39-86da-4aae-9381-faf600555584")
-		(property "Reference" "C17"
+		(property "Reference" "C25"
 			(at 150.241 92.456 0)
 			(effects
 				(font
@@ -38540,7 +38739,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "C17")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -38556,7 +38755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8846c4e-eed0-434f-b853-975b0f9f9b42")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG04"
 			(at 151.765 171.45 0)
 			(effects
 				(font
@@ -38607,7 +38806,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#FLG02")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -38623,7 +38822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8b994ac-37e0-441a-8f4a-61d2193f667b")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR02"
 			(at 156.21 20.32 0)
 			(effects
 				(font
@@ -38674,7 +38873,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR048")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -38689,7 +38888,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb427066-406b-405f-a032-89cf72e5cba4")
-		(property "Reference" "U7"
+		(property "Reference" "U9"
 			(at 38.1 157.48 0)
 			(effects
 				(font
@@ -38785,7 +38984,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "U7")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -38800,7 +38999,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc4b04c0-e5ab-4011-af75-0649833ed76e")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR028"
 			(at 129.54 76.2 0)
 			(effects
 				(font
@@ -38850,7 +39049,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR015")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -38865,7 +39064,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ced4ed2a-7418-4491-8b29-5d3c5be413ec")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR070"
 			(at 163.83 186.69 0)
 			(effects
 				(font
@@ -38915,7 +39114,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR067")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -38930,7 +39129,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf364c6b-8ff0-408f-b2fb-222cb05bf938")
-		(property "Reference" "RN8"
+		(property "Reference" "RN1"
 			(at 262.89 90.17 90)
 			(effects
 				(font
@@ -38939,7 +39138,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Pack04_Split"
+		(property "Value" "47"
 			(at 261.6199 87.63 0)
 			(effects
 				(font
@@ -38977,33 +39176,33 @@
 			)
 		)
 		(pin "1"
-			(uuid "9b793287-2a47-4d11-a911-2a0702cbd088")
+			(uuid "9b793287-2a47-4d11-a911-2a0702cbd08a")
 		)
 		(pin "2"
-			(uuid "5df22f50-a3b6-409e-a500-c00a03c5d37a")
+			(uuid "5df22f50-a3b6-409e-a500-c00a03c5d37c")
 		)
 		(pin "5"
-			(uuid "cbf7e286-6e8d-4e92-8ea3-428f67b8ed0d")
+			(uuid "cbf7e286-6e8d-4e92-8ea3-428f67b8ed0f")
 		)
 		(pin "8"
-			(uuid "46db789d-191d-4e89-b1aa-80085c39c744")
+			(uuid "46db789d-191d-4e89-b1aa-80085c39c746")
 		)
 		(pin "7"
-			(uuid "60ab1b5c-6a72-4ee3-973a-99b17ec9b5aa")
+			(uuid "60ab1b5c-6a72-4ee3-973a-99b17ec9b5ac")
 		)
 		(pin "3"
-			(uuid "87672df7-1e50-44fc-8dfb-645357d48407")
+			(uuid "87672df7-1e50-44fc-8dfb-645357d48409")
 		)
 		(pin "6"
-			(uuid "bbda65e1-99d1-4080-b8f8-d25ab1e86369")
+			(uuid "bbda65e1-99d1-4080-b8f8-d25ab1e8636b")
 		)
 		(pin "4"
-			(uuid "ddc9828a-162b-4369-992d-271f7a141b48")
+			(uuid "ddc9828a-162b-4369-992d-271f7a141b4a")
 		)
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "RN8")
+					(reference "RN1")
 					(unit 3)
 				)
 			)
@@ -39018,7 +39217,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1ad22c2-e6e8-4ea5-a452-2aa56d2f9ee4")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR021"
 			(at 223.52 62.23 0)
 			(effects
 				(font
@@ -39068,7 +39267,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR038")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -39083,7 +39282,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d20922b6-d381-4587-8e01-8b3b899ee8af")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR054"
 			(at 41.91 133.35 0)
 			(effects
 				(font
@@ -39133,7 +39332,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR062")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -39148,7 +39347,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d39b5761-f2e4-4b92-bc32-2cbfe35d1d88")
-		(property "Reference" "C5"
+		(property "Reference" "C3"
 			(at 27.94 23.495 0)
 			(effects
 				(font
@@ -39202,7 +39401,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "C5")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -39217,7 +39416,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4b2b666-b7bb-47dc-920b-9302efef1925")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR066"
 			(at 22.86 165.1 0)
 			(effects
 				(font
@@ -39267,7 +39466,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR023")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -39283,8 +39482,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5b55a8c-05af-4c0d-aa86-3ead249d6738")
-		(property "Reference" "R15"
-			(at 163.83 170.815 90)
+		(property "Reference" "R18"
+			(at 163.83 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39337,7 +39536,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "R15")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -39352,7 +39551,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9ba7428-963a-4295-951e-d52cfcaf7b34")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR015"
 			(at 273.05 44.45 0)
 			(effects
 				(font
@@ -39402,7 +39601,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR055")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -39418,7 +39617,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db1832fb-dd21-4e1e-bf27-2fe1df327ead")
-		(property "Reference" "C24"
+		(property "Reference" "C18"
 			(at 268.605 36.83 90)
 			(effects
 				(font
@@ -39472,7 +39671,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "C24")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -39485,10 +39684,10 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "db7ffe30-34f9-46b6-aa86-a916e932919a")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 109.22 143.5099 0)
 			(effects
 				(font
@@ -39536,7 +39735,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -39551,7 +39750,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd1f9282-8f86-4e8f-867c-4ab6263ef878")
-		(property "Reference" "C2"
+		(property "Reference" "C28"
 			(at 34.544 113.03 0)
 			(effects
 				(font
@@ -39605,7 +39804,72 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "C2")
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd2dd90d-5639-4a8b-8c6e-020aeaca4780")
+		(property "Reference" "#PWR076"
+			(at 90.17 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37f77d86-7760-4b97-836e-adda9110cd9d")
+		)
+		(instances
+			(project "EpsilonAnomalain"
+				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -39621,7 +39885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd43dda2-0af1-47b0-b69c-b583cff7b9ca")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR052"
 			(at 127 127 0)
 			(effects
 				(font
@@ -39672,7 +39936,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR035")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -39685,7 +39949,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dd57756c-8b66-4156-b2b2-30c820144292")
 		(property "Reference" "H4"
@@ -39751,7 +40015,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de191763-44ad-428c-afcc-125f3380bc70")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR025"
 			(at 212.09 68.58 0)
 			(effects
 				(font
@@ -39801,7 +40065,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR072")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -39816,7 +40080,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de460b2f-18d5-48a8-8a9a-71036ba4021f")
-		(property "Reference" "RN8"
+		(property "Reference" "RN1"
 			(at 262.89 85.09 90)
 			(effects
 				(font
@@ -39825,7 +40089,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Pack04_Split"
+		(property "Value" "47"
 			(at 261.6199 82.55 0)
 			(effects
 				(font
@@ -39863,33 +40127,33 @@
 			)
 		)
 		(pin "1"
-			(uuid "9b793287-2a47-4d11-a911-2a0702cbd088")
+			(uuid "9b793287-2a47-4d11-a911-2a0702cbd08b")
 		)
 		(pin "2"
-			(uuid "5df22f50-a3b6-409e-a500-c00a03c5d37a")
+			(uuid "5df22f50-a3b6-409e-a500-c00a03c5d37d")
 		)
 		(pin "5"
-			(uuid "cbf7e286-6e8d-4e92-8ea3-428f67b8ed0d")
+			(uuid "cbf7e286-6e8d-4e92-8ea3-428f67b8ed10")
 		)
 		(pin "8"
-			(uuid "46db789d-191d-4e89-b1aa-80085c39c744")
+			(uuid "46db789d-191d-4e89-b1aa-80085c39c747")
 		)
 		(pin "7"
-			(uuid "60ab1b5c-6a72-4ee3-973a-99b17ec9b5aa")
+			(uuid "60ab1b5c-6a72-4ee3-973a-99b17ec9b5ad")
 		)
 		(pin "3"
-			(uuid "87672df7-1e50-44fc-8dfb-645357d48407")
+			(uuid "87672df7-1e50-44fc-8dfb-645357d4840a")
 		)
 		(pin "6"
-			(uuid "bbda65e1-99d1-4080-b8f8-d25ab1e86369")
+			(uuid "bbda65e1-99d1-4080-b8f8-d25ab1e8636c")
 		)
 		(pin "4"
-			(uuid "ddc9828a-162b-4369-992d-271f7a141b48")
+			(uuid "ddc9828a-162b-4369-992d-271f7a141b4b")
 		)
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "RN8")
+					(reference "RN1")
 					(unit 1)
 				)
 			)
@@ -39904,7 +40168,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ded03c8c-8071-4da0-8f21-765f21ecbdb4")
-		(property "Reference" "RN1"
+		(property "Reference" "RN4"
 			(at 50.8 161.29 90)
 			(effects
 				(font
@@ -39975,7 +40239,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "RN1")
+					(reference "RN4")
 					(unit 1)
 				)
 			)
@@ -39990,7 +40254,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e119f1d7-cfed-4713-b64c-f46007def68c")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR026"
 			(at 143.51 73.66 0)
 			(effects
 				(font
@@ -40040,7 +40304,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR013")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -40055,7 +40319,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e293afc1-554d-449e-8fa5-b1b4270d2469")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR044"
 			(at 55.88 119.38 0)
 			(effects
 				(font
@@ -40105,7 +40369,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR06")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -40120,7 +40384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3e425d4-28d3-42f5-bf9e-6f4d82c74b19")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR047"
 			(at 113.03 121.92 0)
 			(effects
 				(font
@@ -40171,7 +40435,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR029")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -40186,7 +40450,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8233fd6-2176-4885-bdc5-4b8ba7eb4563")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR030"
 			(at 119.38 77.47 0)
 			(effects
 				(font
@@ -40236,7 +40500,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR028")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -40251,7 +40515,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8f5e37e-9134-4cc8-b192-20e31ba045c0")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR023"
 			(at 147.32 63.5 0)
 			(effects
 				(font
@@ -40301,7 +40565,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR049")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -40317,7 +40581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eba38ec0-fecb-4863-880c-b2187ed6f36e")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR045"
 			(at 107.95 113.03 0)
 			(effects
 				(font
@@ -40368,7 +40632,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR030")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -40383,7 +40647,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "efc557c3-e31c-4e30-ae4d-df74b8706d5b")
-		(property "Reference" "C20"
+		(property "Reference" "C1"
 			(at 227.33 16.51 90)
 			(effects
 				(font
@@ -40437,7 +40701,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "C20")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -40529,7 +40793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f36adb23-6676-43b0-a09c-7f475083e197")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR032"
 			(at 189.23 85.09 0)
 			(effects
 				(font
@@ -40579,7 +40843,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR014")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -40594,7 +40858,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3fd1ffc-079b-4746-b1ab-7ece960c331a")
-		(property "Reference" "C11"
+		(property "Reference" "C6"
 			(at 75.565 22.225 0)
 			(effects
 				(font
@@ -40648,7 +40912,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "C11")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -40663,7 +40927,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f447eab7-757f-4b69-997a-7b080e236897")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR040"
 			(at 163.83 104.14 0)
 			(effects
 				(font
@@ -40713,7 +40977,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR056")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -40728,8 +40992,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5bfe98a-6c60-42e7-876c-c40b7dcea556")
-		(property "Reference" "C33"
-			(at 147.32 133.35 0)
+		(property "Reference" "C32"
+			(at 143.51 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40738,7 +41002,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 149.86 133.35 0)
+			(at 152.4 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40782,7 +41046,7 @@
 		(instances
 			(project "EpsilonAnomalain"
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "C33")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -40798,7 +41062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f70084e9-afb3-4c8b-a259-0abe000de5d3")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR010"
 			(at 33.02 35.56 0)
 			(effects
 				(font
@@ -40849,7 +41113,7 @@
 		(instances
 			(project ""
 				(path "/b97f53b0-76a6-4aa3-b2b8-ea1938801841"
-					(reference "#PWR01")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)

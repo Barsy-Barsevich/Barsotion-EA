@@ -1,4 +1,4 @@
-24130647157512462
+24132382318557649
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54519,6 +54519,13 @@ CustomPackage
 BMP388
 ST  HLGA, 10 Pin (https://www.st.com/resource/en/datasheet/lps22hh.pdf#page=55), generated with kicad-footprint-generator ipc_noLead_generator.py
 ST HLGA NoLead
+0
+10
+10
+CustomPackage
+BMP388_v2
+
+
 0
 10
 10
