@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 3.2,
+          "height": 6.4,
+          "width": 6.4
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -698,7 +698,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gerber & BOM/Barsotion-EA_Gerber_v1/",
+      "plot": "Gerber & BOM/Barsotion-EA_Gerber_v2/",
       "pos_files": "Gerber & BOM/",
       "specctra_dsn": "",
       "step": "Barsotion-EA_STEP_v2.22.step",
