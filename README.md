@@ -13,3 +13,4 @@ The 10th board after Berkut
 
 ## Continious progress
 - [Previous version: Barsotion GBK DeltaAnomalain](https://github.com/Barsy-Barsevich/Barsotion-GBK-DeltaAnomalain)
+- [Next version: Barsotion-TA (ThetaAnomalain)](https://github.com/Barsy-Barsevich/Barsotion-EA)
