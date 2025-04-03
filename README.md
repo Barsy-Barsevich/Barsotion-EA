@@ -1,6 +1,8 @@
 # Barsotion GBK EpsilonAnomalain
 The 10th board after Berkut
 
+![](./Photo/EA_xplained.png)
+
 ## Parameters
 - Microcontroller: ESP32-S3FN8 (2x Xtensa LX7 core)
 - Clock frequency: 240MHz
@@ -14,3 +16,5 @@ The 10th board after Berkut
 ## Continious progress
 - [Previous version: Barsotion GBK DeltaAnomalain](https://github.com/Barsy-Barsevich/Barsotion-GBK-DeltaAnomalain)
 - [Next version: Barsotion-TA (ThetaAnomalain)](https://github.com/Barsy-Barsevich/Barsotion-TA)
+
+![](./Photo/photo_2025-01-06_06-12-14.jpg)
