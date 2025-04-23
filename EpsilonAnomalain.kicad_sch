@@ -32293,7 +32293,7 @@
 		(dnp no)
 		(uuid "3d4a0aaf-ffa7-4866-ba82-2ed934a96752")
 		(property "Reference" "RN1"
-			(at 209.55 72.39 90)
+			(at 210.185 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33288,7 +33288,7 @@
 		(dnp no)
 		(uuid "4d3be8b7-3d24-42df-b957-041f81f7f793")
 		(property "Reference" "R10"
-			(at 213.995 68.58 90)
+			(at 213.36 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37266,7 +37266,7 @@
 		(dnp no)
 		(uuid "95bb9eec-209b-4650-a35e-e37299518321")
 		(property "Reference" "RN1"
-			(at 262.89 87.63 90)
+			(at 262.255 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39790,7 +39790,7 @@
 		(dnp no)
 		(uuid "cf364c6b-8ff0-408f-b2fb-222cb05bf938")
 		(property "Reference" "RN1"
-			(at 262.89 90.17 90)
+			(at 262.255 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40741,7 +40741,7 @@
 		(dnp no)
 		(uuid "de460b2f-18d5-48a8-8a9a-71036ba4021f")
 		(property "Reference" "RN1"
-			(at 262.89 85.09 90)
+			(at 262.255 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
