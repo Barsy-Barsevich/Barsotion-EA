@@ -11,7 +11,7 @@ The 10th board after Berkut
 - Memory: 128MB SPI NAND Flash
 
 ## Software
-- [Software tests](https://github.com/Barsy-Barsevich/SindHagku-1)
+- [EA/TA software packet](https://github.com/Barsy-Barsevich/Barsotion-xA-software)
 
 ## Continious progress
 - [Previous version: Barsotion GBK DeltaAnomalain](https://github.com/Barsy-Barsevich/Barsotion-GBK-DeltaAnomalain)
