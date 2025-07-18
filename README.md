@@ -4,10 +4,10 @@ Board computer for model rockets, the 10th board after Berkut
 ![](./Photo/EA_xplained.png)
 
 ## ⚡️Manual
-- [EA&TA_user_manual_revD.pdf (newest revision)](https://github.com/Barsy-Barsevich/Barsotion-TA/Manual/EA&TA_user_manual_revD.pdf)
-- [EA&TA_user_manual_revC.pdf](https://github.com/Barsy-Barsevich/Barsotion-TA/Manual/EA&TA_user_manual_revC.pdf)
-- [EA&TA_user_manual_preliminary_edition_revB.pdf](https://github.com/Barsy-Barsevich/Barsotion-TA/Manual/EA&TA_user_manual_preliminary_edition_revB.pdf)
-- [EA&TA_user_manual_preliminary_edition_revA.pdf](https://github.com/Barsy-Barsevich/Barsotion-TA/Manual/EA&TA_user_manual_preliminary_edition_revA.pdf)
+- [EA&TA_user_manual_revD.pdf (newest revision)](https://github.com/Barsy-Barsevich/Barsotion-TA/blob/main/Manual/EA%26TA_user_manual_revD.pdf)
+- [EA&TA_user_manual_revC.pdf](https://github.com/Barsy-Barsevich/Barsotion-TA/blob/main/Manual/EA&TA_user_manual_revC.pdf)
+- [EA&TA_user_manual_preliminary_edition_revB.pdf](https://github.com/Barsy-Barsevich/Barsotion-TA/blob/main/Manual/EA&TA_user_manual_preliminary_edition_revB.pdf)
+- [EA&TA_user_manual_preliminary_edition_revA.pdf](https://github.com/Barsy-Barsevich/Barsotion-TA/blob/main/Manual/EA&TA_user_manual_preliminary_edition_revA.pdf)
 
 ## ⚡️Software
 - [EA/TA software packet](https://github.com/Barsy-Barsevich/Barsotion-xA-software)
